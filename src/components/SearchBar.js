@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+// the searchbar component will display the searchbar input and automatically search the books when we type in the input
 class SearchBar extends Component {
   state = {
     value: ''

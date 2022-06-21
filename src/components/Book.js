@@ -5,6 +5,7 @@ const Book = ({ book, shelf, onMove }) => (
   <li>
     <div className="book">
       <div className="book-top">
+        {/* Styling the book cover image */}
         <div
           className="book-cover"
           style={{
