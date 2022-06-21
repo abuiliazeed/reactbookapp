@@ -11,7 +11,7 @@ class ListBooks extends Component {
       {/* This will render the header BookApp */}
         <div className="list-books">
           <div className="list-title">
-            <h1><span><FaBook size={30}/></span>BookApp</h1>
+            <h1><span><FaBook size={30}/></span>ReactBookApp</h1>
           </div>
           {/* This will list down all the bookshelves with it's book contents */}
           <div className="list-books-content">

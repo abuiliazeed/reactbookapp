@@ -23,6 +23,7 @@ const Book = ({ book, shelf, onMove }) => (
       </div>
       <div className="book-title">{book.title}</div>
       <div className="book-authors">
+        {/* If there is more than one user it will concat them with , as separator else it will display unkown author */}
         {book.authors ? book.authors.join(', ') : 'Unknown Author'}
       </div>
     </div>
