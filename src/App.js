@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import ListBooks from './components/ListBooks';
+import ListBookshelves from './components/ListBookshelves';
 import SearchBooks from './components/SearchBooks';
 import { Route } from 'react-router-dom';
 import { debounce } from 'throttle-debounce';
@@ -82,7 +82,7 @@ class BooksApp extends Component {
           exact
           path="/"
           render={() => (
-            <ListBooks
+            <ListBookshelves
               bookshelves={bookshelves}
               books={myBooks}
               onMove={this.moveBook}

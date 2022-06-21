@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Bookshelf from './Bookshelf';
 import { FaBook } from 'react-icons/fa';
 
-class ListBooks extends Component {
+class ListBookshelves extends Component {
   render() {
     const { bookshelves, books, onMove } = this.props;
     return (
@@ -39,4 +39,4 @@ class ListBooks extends Component {
   }
 }
 
-export default ListBooks;
+export default ListBookshelves;
