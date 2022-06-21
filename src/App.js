@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-import ListBooks from './ListBooks';
-import SearchBooks from './SearchBooks';
+import ListBooks from './components/ListBooks';
+import SearchBooks from './components/SearchBooks';
 import { Route } from 'react-router-dom';
 import { debounce } from 'throttle-debounce';
-import * as BooksAPI from './BooksAPI';
+import * as BooksAPI from './components/BooksAPI';
 
 // We will create bookshelves constant that list the three types of shelves
 const bookshelves = [
