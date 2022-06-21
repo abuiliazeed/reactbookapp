@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SearchResults from './SearchResults';
 import { Link } from 'react-router-dom';
-import SearchBooksInput from './SearchBooksInput';
+import SearchBar from './SearchBar';
 
 // The SearchBooks component will display the search books input and search results and manage the routing back to the bookshelves when you close the search
 class SearchBooks extends Component {
@@ -24,8 +24,9 @@ class SearchBooks extends Component {
             </button>
           </Link>
           {/* When we search the component render the searchresults */}
-          <SearchBooksInput onSearch={onSearch} />
+          <SearchBar onSearch={onSearch} />
         </div>
+        {/* Displaying search results */}
         <SearchResults
           searchBooks={searchBooks}
           myBooks={myBooks}
