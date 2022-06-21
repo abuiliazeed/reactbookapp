@@ -31,3 +31,18 @@ http://localhost:3000
 ```
 - You can see the app in the browser
 ![](https://i.imgur.com/ycTHBRX.png)
+
+## React Components Archtiecture
+- List of bookshelves Page
+    - BookShelf
+    - Book
+    - BookshelfChanger
+    - Navigate to Search
+- Search Books Page
+    - Search bar
+    - Search Results
+    - BookshelfChanger
+    - Navigate to Bookshelves
+
+
+
